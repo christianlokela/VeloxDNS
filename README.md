@@ -1,7 +1,3 @@
-# VeloxDNS
-
-## 🗣️ Sprache / Language
-
 ### 🇩🇪 Deutsch  
 ⚠️ **Hinweis:**  
 Das Programm ist derzeit **nur in deutscher Sprache** verfügbar.  
@@ -12,6 +8,9 @@ Weitere Sprachen sind für zukünftige Versionen geplant.
 The application is currently available **in German only**.  
 Additional languages are planned for future versions.
 
+
+
+# VeloxDNS
 
 **VeloxDNS** ist ein leichtgewichtiges Windows-Tool, mit dem du den DNS-Server deiner Netzwerkadapter schnell und komfortabel ändern kannst – ohne den Umweg über die Windows-Netzwerkeinstellungen.
 
