@@ -72,6 +72,15 @@ It has only been tested on **Windows 10** – other Windows versions may experie
 
 ---
 
+## 📥 Direkt-Download
+
+Die aktuelle Alpha-Version von VeloxDNS kann hier heruntergeladen werden:
+
+➡ [VeloxDNS Alpha v0.1 herunterladen](https://github.com/GamePatX/VeloxDNS/releases/download/v0.1-alpha/VeloxDNS_Alpha_v0.1.rar)
+
+> Hinweis: Entpacken und „VeloxDNS.exe“ ausführen. Es ist keine Installation erforderlich.
+
+
 ## 🪪 Lizenz / License
 
 Dieses Projekt steht unter der **MIT-Lizenz**.  
