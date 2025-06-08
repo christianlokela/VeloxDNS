@@ -97,3 +97,35 @@ Die aktuelle Alpha-Version von VeloxDNS kann hier heruntergeladen werden:
 
 Dieses Projekt steht unter der **MIT-Lizenz**.  
 This project is licensed under the **MIT License**.
+
+## ❓ FAQ – Häufig gestellte Fragen
+
+### 🇩🇪 Deutsch
+
+**🔒 Ist das Programm sicher?**  
+Ja. VeloxDNS ändert ausschließlich die DNS-Einstellungen der gewählten Netzwerkadapter. Es verwendet dafür Standardfunktionen von Windows (.NET/WMI) und greift nicht tiefer ins System ein.
+
+**🌐 Wird das Internet oder DNS aktiv beeinflusst?**  
+Nein, das Tool selbst verändert keine Verbindungen oder Daten. Es stellt lediglich ein, welcher DNS-Server genutzt wird – die Leistung hängt vom gewählten Anbieter ab (z. B. Google, Cloudflare etc.).
+
+**📁 Werden Daten gespeichert oder übertragen?**  
+Nein, es gibt keine Online-Kommunikation. Nur DNS-Profile werden lokal im Programmordner gespeichert – sonst nichts.
+
+**👤 Wer steckt hinter dem Projekt?**  
+Die Idee stammt von mir (GamePatX), die Umsetzung wurde mit Hilfe von ChatGPT realisiert. Es ist ein Open Source Lern- und Praxisprojekt.
+
+---
+
+### 🇬🇧 English
+
+**🔒 Is the program safe?**  
+Yes. VeloxDNS only changes the DNS settings of the selected network adapters using standard Windows functions (.NET/WMI). It does not access deeper system areas.
+
+**🌐 Does it affect internet speed or DNS performance?**  
+No. The tool only sets which DNS server is used. The actual performance depends on the selected DNS provider (e.g. Google, Cloudflare, etc.).
+
+**📁 Does it store or send any data?**  
+No. It does not communicate with the internet. Only optional DNS profiles are stored locally in the program folder.
+
+**👤 Who made this?**  
+The idea and concept come from me (GamePatX). The implementation was created with the help of ChatGPT as part of a practical open source project.
